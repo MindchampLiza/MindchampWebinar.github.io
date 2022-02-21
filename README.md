@@ -1,1 +1,0 @@
-# MindchampWebinar.github.io
