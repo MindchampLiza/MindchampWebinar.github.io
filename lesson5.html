@@ -1,0 +1,64 @@
+﻿<!doctype html>
+<html>
+<head>
+<title>Forms</title>
+</head>
+<body>
+<h1>Covid test Eligibility</h1>
+<form name="Covid test eligibility">
+<fieldset style="background-color:pink;">
+<legend>Personal Details:</legend>
+  <label for="firstname">First name:</label><br>
+  <input type="text" name="firstname" value="Steve"><br>
+  <label for="lastname">Last name:</label><br>
+  <input type="text"  name="lastname" value="Jobs"><br>
+<label for="age">Age:</label><br>
+<input type="text" name="age" value=">14"><br>
+<label>
+Gender</label></br>
+<input type="radio" name="gender" value="male">
+<label for="male">Male</label><br>
+<input type="radio" name="gender" value="female">
+<label for="female">Female</label><br>
+<input type="radio" name="gender" value="other">
+<label for="other">Other</label><br><br>
+  </fieldset>
+
+<fieldset style="background-color:lightblue;">
+<legend>Symptoms:</legend>
+<label>Check your symptoms</label><br>
+<input type="checkbox" name="symptoms" value="fever">
+<label for="fever">Fever</label>
+<br>
+<input type="checkbox" name="symptoms" value="difficulty breathing">
+<label for ="difficulty breathing">Difficulty Breathing</label><br>
+
+<input type="checkbox" name="symptoms" value="low oxygen level">
+<label for ="low oxygen level">low oxygen level</label><br>
+<input type="checkbox" name="symptoms" value="coughing">
+<label for ="coughing">Coughing</label><br>
+</fieldset>
+<fieldset style="background-color:lightgreen;">
+<legend>Address Details</legend> 
+<label>Choose your state</label><br>
+
+<select id="state" name="state">
+    <option value="Maharashtra">Maharashtra</option>
+    <option value="Delhi">Delhi</option>
+    <option value="UP">UP</option>
+    <option value="AP">AP</option>
+</select><br>
+<textarea name="address detail" rows="10" cols="30">
+Address:
+</textarea>
+</fieldset>
+<fieldset style="background-color:lightyellow;">
+<legend>Preconditions</legend> 
+<textarea name="preconditions" rows="10" cols="30">
+Preconditions:
+</textarea>
+<input type="submit" name="Submit">
+</fieldset>
+</form> 
+</body>
+</html>
